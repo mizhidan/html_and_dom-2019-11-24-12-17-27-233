@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            margin-top: 70px;
+            margin-left: 50px;
+        }
+
+        p {
+            margin-left: 40px;
+            margin-block-start: 0;
+            margin-block-end: 0;
+        }
+
+        label {
+            margin-left: 20px;
+        }
+
+        .content {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>统一建模语言理论测试</h1>
+    <table style="text-align: left;font-weight: normal;">
+        <tbody>
+            <tr>
+                <td>考试科目：</td>
+                <td>统一建模语言</td>
+                <td>时间：</td>
+                <td>100分钟</td>
+                <td>得分：</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>班级：</td>
+                <td><input type="text" name="班级" value="1班"></td>
+                <td>学号：</td>
+                <td><input type="text" name="学号" value="001"></td>
+                <td>姓名：</td>
+                <td></td>
+                <td><input type="text" name="姓名" value="王小闹"></td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>一、填空题（每空5分，共20分）</h2>
+    <p>1.UML的中文全称是：<input type="text" name="填空题" value="统一建模语言"></p>
+    <p>2.对象最突出的特征是:
+        <input type="text" name="填空题" value="封装性">
+        <input type="text" name="填空题" value="继承性">
+        <input type="text" name="填空题" value="多态性">
+    </p>
+    <h2>二、选择题（每题10分，共20分）</h2>
+    <div>
+        <p>1.UML与软件工程的关系是：</p>
+        <div class="content">
+            <p><label><input type="radio" name="选择题1">(A)UML就是软件工程</label></p>
+            <p><label><input type="radio" name="选择题1" checked>(B)UML参与到软件工程中开发过程的几个阶段</label></p>
+            <p><label><input type="radio" name="选择题1">(C)UML与软件工程无关</label></p>
+            <p><label><input type="radio" name="选择题1">(D)UML是软件工程的一部分</label></p>
+        </div>
+    </div>
+    <div>
+        <p>2.Java语言支持：</p>
+        <div class="content">
+            <p><label><input type="radio" name="选择题2" checked>(A)单继承</label></p>
+            <p><label><input type="radio" name="选择题2">(B)多继承</label></p>
+            <p><label><input type="radio" name="选择题2">(C)单继承和多继承都支持</label></p>
+            <p><label><input type="radio" name="选择题2">(D)单继承和多继承都不支持</label></p>
+        </div>
+    </div>
+    <h2>三、多择题（每题10分，共20分）</h2>
+    <div>
+        <p>1.用例的粒度分为以下哪三种：</p>
+        <div class="content">
+            <p><label><input type="checkbox" name="多择题" checked>(A)概述级</label></p>
+            <p><label><input type="checkbox" name="多择题" checked>(B)需求级</label></p>
+            <p><label><input type="checkbox" name="多择题">(C)用户目标级</label></p>
+            <p><label><input type="checkbox" name="多择题" checked>(D)子功能级</label></p>
+        </div>
+    </div>
+    <div>
+        <p>2.类图由以下哪三部分组成：</p>
+        <div class="content">
+            <p><label><input type="checkbox" name="多择题" checked>(A)名称(Name)</label></p>
+            <p><label><input type="checkbox" name="多择题" checked>(B)属性(Attribute)</label></p>
+            <p><label><input type="checkbox" name="多择题" checked>(C)操作(Operation)</label></p>
+            <p><label><input type="checkbox" name="多择题">(D)方法(Function)</label></p>
+        </div>
+    </div>
+    <h2>四、判断题（每题10分，共20分）</h2>
+    <p>
+        1.用例图只是用于和客户交流和沟通的，用于确定需求
+        <label><input type="radio" name="判断题1">√</label>
+        <label><input type="radio" name="判断题1" checked>×</label>
+    </p>
+    <p>
+        2.在状态图中，终止状态在一个状态图中允许有任意多个
+        <label><input type="radio" name="判断题2" checked>√</label>
+        <label><input type="radio" name="判断题2">×</label>
+    </p>
+    <h2>五、简答题（每题20分，共20分）</h2>
+    <p>1.简述什么是模型以及模型的表现形式？</p>
+    <div contenteditable="true">
+        <textarea
+            style="min-width: 500px;min-height: 200px;margin-left: 40px;">"模型是对现实世界的简化和抽象，模型是对所研究的系统、过程、事务或概念的一种表达形式。可以是物理实体；可以是某种图形；或者是一种数学表达式"</textarea>
+    </div>
+    <input style="margin-top: 20px;" type="submit" value="计算分数">
+</body>
+
+</html>
